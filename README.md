@@ -1,6 +1,26 @@
 # Projeto Olympic Games
 
 ### Tópicos
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+
+:small_blue_diamond: [Funcionalidades](#funcionalidades)
+
+:small_blue_diamond: [Detalhes](#detalhes)
+
+:small_blue_diamond: [Entidades](#entidades-typescript)
+
+:small_blue_diamond: [Tabelas](#tabelas-mysql)
+
+:small_blue_diamond: [Instruções](#instruções)
+
+:small_blue_diamond: [Documentação](#documentação)
+
+:small_blue_diamond: [Tecnologias Utilizadas](#tecnologias-utilizadas)
+
+:small_blue_diamond: [Coverage](#coverage)
+
+:small_blue_diamond: [Tarefas em aberto](#tarefas-em-aberto)
+
 
 ## Descrição do Projeto
 Com a chegada dos jogos olímpicos, fui designada para construir uma API REST para o COB (Comitê Olímpico Brasileiro)
@@ -110,18 +130,18 @@ Popular as tabelas através das requisições do Postman ou do arquivo `requests
   -   Express
   -   Cors
   -   Markdown
+  -   UUID
+  -   JEST
 
 
 ## Coverage
 - `npm run test`
 
-- colocar imagem da cobetura de testes aqui!!!
+![coverage](https://user-images.githubusercontent.com/104744597/213477504-83f6504a-69b4-474a-ad87-b36a112e428a.png)
 
 
 ## Tarefas em aberto
 :memo: Alterar nome das tabelas no VSCode
-
-:memo: Corrigir erros ao copiar a aplicação para este repositório
 
 :memo: Acrescentar o `run migrations` para criar e popular as tabelas automaticamente
 
