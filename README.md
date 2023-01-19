@@ -141,8 +141,6 @@ Popular as tabelas através das requisições do Postman ou do arquivo `requests
 
 
 ## Tarefas em aberto
-:memo: Alterar nome das tabelas no VSCode
-
 :memo: Acrescentar o `run migrations` para criar e popular as tabelas automaticamente
 
 :memo: Deploy do backend
