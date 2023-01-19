@@ -136,13 +136,11 @@ Popular as tabelas através das requisições do Postman ou do arquivo `requests
 ## Coverage
 - `npm run test`
 
-- colocar imagem da cobetura de testes aqui!!!
+![coverage](https://user-images.githubusercontent.com/104744597/213477504-83f6504a-69b4-474a-ad87-b36a112e428a.png)
 
 
 ## Tarefas em aberto
 :memo: Alterar nome das tabelas no VSCode
-
-:memo: Corrigir erros ao copiar a aplicação para este repositório
 
 :memo: Acrescentar o `run migrations` para criar e popular as tabelas automaticamente
 
