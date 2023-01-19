@@ -131,6 +131,7 @@ Popular as tabelas através das requisições do Postman ou do arquivo `requests
   -   Cors
   -   Markdown
   -   UUID
+  -   JEST
 
 
 ## Coverage
