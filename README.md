@@ -1,6 +1,26 @@
 # Projeto Olympic Games
 
 ### Tópicos
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+
+:small_blue_diamond: [Funcionalidades](#funcionalidades)
+
+:small_blue_diamond: [Detalhes](#detalhes)
+
+:small_blue_diamond: [Entidades](#entidades-typescript)
+
+:small_blue_diamond: [Tabelas](#tabelas-mysql)
+
+:small_blue_diamond: [Instruções](#instruções)
+
+:small_blue_diamond: [Documentação](#documentação)
+
+:small_blue_diamond: [Tecnologias Utilizadas](#tecnologias-utilizadas)
+
+:small_blue_diamond: [Coverage](#coverage)
+
+:small_blue_diamond: [Tarefas em aberto](#tarefas-em-aberto)
+
 
 ## Descrição do Projeto
 Com a chegada dos jogos olímpicos, fui designada para construir uma API REST para o COB (Comitê Olímpico Brasileiro)
@@ -110,6 +130,7 @@ Popular as tabelas através das requisições do Postman ou do arquivo `requests
   -   Express
   -   Cors
   -   Markdown
+  -   UUID
 
 
 ## Coverage
