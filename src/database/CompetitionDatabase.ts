@@ -2,7 +2,7 @@ import { Competition, ICompetitionDB, STATUS } from "../entities/Competition";
 import { BaseDatabase } from "./BaseDatabase";
 
 class CompetitionDatabase extends BaseDatabase {
-    public static TABLE_COMP = "Case2_Competitions"
+    public static TABLE_COMP = "OG_Competitions"
 
     public createCompetition = async (competition: Competition) => {
         const competitionDB : ICompetitionDB = {

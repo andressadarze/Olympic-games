@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1670695964255" clover="3.2.0">
-  <project timestamp="1670695964255" name="All files">
+<coverage generated="1674140147772" clover="3.2.0">
+  <project timestamp="1674140147772" name="All files">
     <metrics statements="190" coveredstatements="181" conditionals="63" coveredconditionals="63" methods="43" coveredmethods="34" elements="296" coveredelements="278" complexity="0" loc="190" ncloc="190" packages="5" files="9" classes="9"/>
     <package name="src.business">
       <metrics statements="78" coveredstatements="78" conditionals="29" coveredconditionals="29" methods="8" coveredmethods="8"/>
-      <file name="CompetitionBusiness.ts" path="C:\Users\dessa\alves-Andressa-Darze\modulo6\rodada-cases-2\src\business\CompetitionBusiness.ts">
+      <file name="CompetitionBusiness.ts" path="C:\Users\dessa\Andressa-GitHub\Olympic-games\src\business\CompetitionBusiness.ts">
         <metrics statements="27" coveredstatements="27" conditionals="9" coveredconditionals="9" methods="3" coveredmethods="3"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -34,7 +34,7 @@
         <line num="62" count="1" type="stmt"/>
         <line num="66" count="1" type="stmt"/>
       </file>
-      <file name="ResultBusiness.ts" path="C:\Users\dessa\alves-Andressa-Darze\modulo6\rodada-cases-2\src\business\ResultBusiness.ts">
+      <file name="ResultBusiness.ts" path="C:\Users\dessa\Andressa-GitHub\Olympic-games\src\business\ResultBusiness.ts">
         <metrics statements="51" coveredstatements="51" conditionals="20" coveredconditionals="20" methods="5" coveredmethods="5"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -91,7 +91,7 @@
     </package>
     <package name="src.database">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="BaseDatabase.ts" path="C:\Users\dessa\alves-Andressa-Darze\modulo6\rodada-cases-2\src\database\BaseDatabase.ts">
+      <file name="BaseDatabase.ts" path="C:\Users\dessa\Andressa-GitHub\Olympic-games\src\database\BaseDatabase.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
@@ -102,7 +102,7 @@
     </package>
     <package name="src.entities">
       <metrics statements="40" coveredstatements="31" conditionals="5" coveredconditionals="5" methods="15" coveredmethods="6"/>
-      <file name="Competition.ts" path="C:\Users\dessa\alves-Andressa-Darze\modulo6\rodada-cases-2\src\entities\Competition.ts">
+      <file name="Competition.ts" path="C:\Users\dessa\Andressa-GitHub\Olympic-games\src\entities\Competition.ts">
         <metrics statements="24" coveredstatements="18" conditionals="5" coveredconditionals="5" methods="9" coveredmethods="3"/>
         <line num="1" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="2" count="2" type="stmt"/>
@@ -129,29 +129,29 @@
         <line num="48" count="1" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
       </file>
-      <file name="Result.ts" path="C:\Users\dessa\alves-Andressa-Darze\modulo6\rodada-cases-2\src\entities\Result.ts">
+      <file name="Result.ts" path="C:\Users\dessa\Andressa-GitHub\Olympic-games\src\entities\Result.ts">
         <metrics statements="16" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
-        <line num="31" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
         <line num="33" count="5" type="stmt"/>
-        <line num="34" count="5" type="stmt"/>
-        <line num="35" count="5" type="stmt"/>
-        <line num="36" count="5" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
         <line num="37" count="5" type="stmt"/>
-        <line num="40" count="5" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="44" count="5" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="48" count="5" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="52" count="5" type="stmt"/>
-        <line num="53" count="3" type="stmt"/>
-        <line num="56" count="5" type="stmt"/>
-        <line num="57" count="3" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="5" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="49" count="5" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.errors">
       <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
-      <file name="BaseError.ts" path="C:\Users\dessa\alves-Andressa-Darze\modulo6\rodada-cases-2\src\errors\BaseError.ts">
+      <file name="BaseError.ts" path="C:\Users\dessa\Andressa-GitHub\Olympic-games\src\errors\BaseError.ts">
         <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
         <line num="1" count="2" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -176,7 +176,7 @@
     </package>
     <package name="tests.mocks">
       <metrics statements="48" coveredstatements="48" conditionals="29" coveredconditionals="29" methods="11" coveredmethods="11"/>
-      <file name="CompetitionDatabaseMock.ts" path="C:\Users\dessa\alves-Andressa-Darze\modulo6\rodada-cases-2\tests\mocks\CompetitionDatabaseMock.ts">
+      <file name="CompetitionDatabaseMock.ts" path="C:\Users\dessa\Andressa-GitHub\Olympic-games\tests\mocks\CompetitionDatabaseMock.ts">
         <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
@@ -199,13 +199,13 @@
         <line num="55" count="2" type="stmt"/>
         <line num="57" count="1" type="stmt"/>
       </file>
-      <file name="IdGeneratorMock.ts" path="C:\Users\dessa\alves-Andressa-Darze\modulo6\rodada-cases-2\tests\mocks\IdGeneratorMock.ts">
+      <file name="IdGeneratorMock.ts" path="C:\Users\dessa\Andressa-GitHub\Olympic-games\tests\mocks\IdGeneratorMock.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
       </file>
-      <file name="ResultDatabaseMock.ts" path="C:\Users\dessa\alves-Andressa-Darze\modulo6\rodada-cases-2\tests\mocks\ResultDatabaseMock.ts">
+      <file name="ResultDatabaseMock.ts" path="C:\Users\dessa\Andressa-GitHub\Olympic-games\tests\mocks\ResultDatabaseMock.ts">
         <metrics statements="25" coveredstatements="25" conditionals="23" coveredconditionals="23" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>

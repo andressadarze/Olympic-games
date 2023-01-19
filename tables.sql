@@ -1,5 +1,5 @@
 -- Active: 1663621767455@@35.226.146.116@3306@alves-andressa-darze
-create table Case2_Competitions(
+create table OG_Competitions(
     id varchar(255) primary key,
     name varchar(255) not null,
     modality enum('100 metros rasos', 'Lançamento de dardos') not null,
@@ -7,14 +7,14 @@ create table Case2_Competitions(
     status enum('Em andamento', 'Encerrada') not null
 );
 
-create table Case2_Results_Rasos(
+create table OG_Results_Rasos(
     id varchar(255) primary key,
     competition varchar(255) not null,
     athlete varchar(255) not null,
     value float not null
 );
 
-create table Case2_Results_Dardos(
+create table OG_Results_Dardos(
     id varchar(255) primary key,
     competition varchar(255) not null,
     athlete varchar(255) not null,
@@ -22,7 +22,7 @@ create table Case2_Results_Dardos(
 );
 
 
-select * from `Case2_Competitions`;
-select * from `Case2_Results_Rasos`;
-select * from `Case2_Results_Dardos`;
+select * from `OG_Competitions`;
+select * from `OG_Results_Rasos`;
+select * from `OG_Results_Dardos`;
 

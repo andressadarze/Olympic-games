@@ -1,11 +1,10 @@
 import { MODALITY } from "../entities/Competition";
 import { INewResult, IResultDB, Result } from "../entities/Result";
-import { BaseDatabase } from "./BaseDatabase";
-import knex from "knex";
+import { BaseDatabase } from "./BaseDatabase"
 
 class ResultDatabase extends BaseDatabase {
-    public static TABLE_RES_RASOS = "Case2_Results_Rasos"
-    public static TABLE_RES_DARDOS = "Case2_Results_Dardos"
+    public static TABLE_RES_RASOS = "OG_Results_Rasos"
+    public static TABLE_RES_DARDOS = "OG_Results_Dardos"
 
     public addResult = async (result: Result) => {
         const resultDB : IResultDB = {
